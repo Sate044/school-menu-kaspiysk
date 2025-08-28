@@ -1,0 +1,33 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Логи
+*.log
+
+# Папки IDE
+.vscode/
+.idea/
+
+# Кэш браузера
+*.cache
+
+# Ненужные markdown файлы для продакшена
+ИНСТРУКЦИЯ.md
+ГОТОВО.md
+ФИНАЛЬНАЯ_ВЕРСИЯ.md
+ПРОБЛЕМА_РЕШЕНА.md
+
+# Python файлы (не нужны в продакшене)
+excel_parser.py
+excel_parser_fixed.py
+excel_analyzer.py
+verify_data.py
+
+# JSON файлы (данные встроены в JS)
+menu_data.json
+menu_data_accurate.json

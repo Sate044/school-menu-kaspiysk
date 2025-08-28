@@ -1,0 +1,19 @@
+{
+  "name": "school-menu-kaspiysk",
+  "version": "1.0.0",
+  "description": "Школьное меню для 1-4 классов г. Каспийск",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "build": "echo 'Static site - no build needed'",
+    "start": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "школьное меню",
+    "каспийск",
+    "питание",
+    "дети"
+  ],
+  "author": "School Menu System",
+  "license": "MIT"
+}
