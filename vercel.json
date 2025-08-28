@@ -1,18 +1,4 @@
 {
-  "version": 2,
-  "name": "school-menu-kaspiysk",
   "cleanUrls": true,
-  "trailingSlash": false,
-  "outputDirectory": ".",
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600"
-        }
-      ]
-    }
-  ]
+  "trailingSlash": false
 }
