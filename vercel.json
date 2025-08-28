@@ -3,6 +3,7 @@
   "name": "school-menu-kaspiysk",
   "cleanUrls": true,
   "trailingSlash": false,
+  "outputDirectory": ".",
   "headers": [
     {
       "source": "/(.*)",
