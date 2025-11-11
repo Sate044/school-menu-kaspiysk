@@ -187,15 +187,34 @@ class JSONMenuLoader {
         dayCard.className = 'day-card';
 
         const mealsHTML = Object.entries(dayData.meals).map(([mealType, dishes]) => {
-            const dishesHTML = dishes.map(dish => {
-                // Проверяем, является ли dish объектом с калорийностью или просто строкой
-                if (typeof dish === 'object' && dish.name) {
-                    const caloriesText = dish.calories ? ` <span class="calories">(${dish.calories} ккал)</span>` : '';
-                    return `<li>${dish.name}${caloriesText}</li>`;
-                } else {
-                    return `<li>${dish}</li>`;
-                }
-            }).join('');
+            // Фильтруем паразитные элементы, попавшие из Excel (названия листов и сводных таблиц)
+            const blacklistSubstrings = [
+                'примерное меню и пищевая ценность приготовляемых блюд',
+                'лист 6',
+                'лист 5',
+                'среднее значение за период',
+                'содержание белков, жиров, углеводов в меню за период'
+            ];
+            const isBlacklisted = (text) => {
+                if (!text) return false;
+                const normalized = String(text).toLowerCase().trim();
+                return blacklistSubstrings.some(fragment => normalized.includes(fragment));
+            };
+            
+            const dishesHTML = dishes
+                .filter(dish => {
+                    const text = (typeof dish === 'object' && dish?.name) ? dish.name : dish;
+                    return !isBlacklisted(text);
+                })
+                .map(dish => {
+                    // Проверяем, является ли dish объектом с калорийностью или просто строкой
+                    if (typeof dish === 'object' && dish.name) {
+                        const caloriesText = dish.calories ? ` <span class="calories">(${dish.calories} ккал)</span>` : '';
+                        return `<li>${dish.name}${caloriesText}</li>`;
+                    } else {
+                        return `<li>${dish}</li>`;
+                    }
+                }).join('');
             
             return `
                 <div class="meal">
