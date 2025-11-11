@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Школьное меню - 1-4 классы Каспийск</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Заголовок -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">Школьное меню</h1>
+                <p class="subtitle">1-4 классы (7-11 лет) • г. Каспийск</p>
+                <p class="subtitle-small">Приложение N 8 к СанПиН 2.3/2.4.3590-20</p>
+            </div>
+        </header>
+
+        <!-- Переключатель смен -->
+        <div class="shift-selector">
+            <button class="shift-btn active" data-shift="first">Первая смена</button>
+            <button class="shift-btn" data-shift="second">Вторая смена</button>
+        </div>
+
+
+
+        <!-- Меню первой смены -->
+        <div class="menu-container" id="first-shift">
+            <div class="week-grid">
+                <!-- Данные загружаются из Excel файлов автоматически -->
+                <div class="loading-message">
+                    <p>Загружаем данные из Excel файлов...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Меню второй смены -->
+        <div class="menu-container hidden" id="second-shift">
+            <div class="week-grid">
+                <!-- Данные загружаются из Excel файлов автоматически -->
+                <div class="loading-message">
+                    <p>Загружаем данные из Excel файлов...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Футер -->
+        <footer class="footer">
+            <p>Школьное питание • Каспийск • 2024</p>
+            <p>Приятного аппетита!</p>
+        </footer>
+    </div>
+
+    <script src="menu_data_embedded.js"></script>
+    <script src="json_loader.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
