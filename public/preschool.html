@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дошкольное меню (3–7 лет)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">Дошкольное меню</h1>
+                <p class="subtitle">3–7 лет • 01.01-12.31</p>
+                <p class="subtitle-small">Данные из Excel: “Меню на 3-7 для контракта.xls”</p>
+            </div>
+        </header>
+
+        <div class="menu-container" id="preschool-shift">
+            <div class="week-grid">
+                <div class="loading-message">
+                    <p>Загружаем данные из Excel файлов...</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Дошкольное питание • 3–7 лет</p>
+            <p>Приятного аппетита!</p>
+        </footer>
+    </div>
+
+    <script src="menu_data_embedded.js"></script>
+    <script src="json_loader.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
+

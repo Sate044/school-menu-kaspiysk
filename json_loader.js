@@ -17,22 +17,38 @@ class JSONMenuLoader {
             console.log('🔄 Загрузка данных...');
             
             let data = null;
+            const isFileProtocol = typeof window !== 'undefined' && window.location && window.location.protocol === 'file:';
             
-            // Сначала пытаемся использовать встроенные данные
-            if (window.EMBEDDED_MENU_DATA) {
-                console.log('✅ Используем встроенные данные из Excel файлов');
+            // Если открыто напрямую через file:// — используем встроенные данные, чтобы избежать CORS
+            if (isFileProtocol && window.EMBEDDED_MENU_DATA) {
+                console.log('📁 Запуск через file:// — используем EMBEDDED_MENU_DATA');
                 data = window.EMBEDDED_MENU_DATA;
             } else {
-                // Если встроенных данных нет, пытаемся загрузить JSON
-                console.log('📥 Загружаем данные из JSON файла...');
-                let response = await fetch('menu_data_accurate.json');
-                if (!response.ok) {
-                    response = await fetch('menu_data.json');
+                // Приоритет: menu_data.json -> menu_data_accurate.json -> EMBEDDED_MENU_DATA
+                console.log('📥 Пробуем загрузить menu_data.json...');
+                try {
+                    let response = await fetch(`menu_data.json?ts=${Date.now()}`);
+                    if (!response.ok) {
+                        console.log('⚠️ menu_data.json недоступен, пробуем menu_data_accurate.json...');
+                        response = await fetch(`menu_data_accurate.json?ts=${Date.now()}`);
+                    }
+                    if (response.ok) {
+                        data = await response.json();
+                    } else if (window.EMBEDDED_MENU_DATA) {
+                        console.log('ℹ️ Используем встроенные данные EMBEDDED_MENU_DATA как запасной вариант');
+                        data = window.EMBEDDED_MENU_DATA;
+                    } else {
+                        throw new Error(`Не удалось загрузить данные (HTTP ${response.status})`);
+                    }
+                } catch (e) {
+                    // Ошибка сети/протокола — пробуем встроенные данные
+                    if (window.EMBEDDED_MENU_DATA) {
+                        console.log('🌐 Ошибка fetch, используем EMBEDDED_MENU_DATA как запасной вариант');
+                        data = window.EMBEDDED_MENU_DATA;
+                    } else {
+                        throw e;
+                    }
                 }
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                data = await response.json();
             }
             
             // Проверяем, есть ли данные
@@ -76,30 +92,85 @@ class JSONMenuLoader {
             weekGrid.innerHTML = '';
 
             const shiftData = this.menuData[shiftType];
-            
-            // Поддерживаем и старый формат (days) и новый (weeks)
-            if (shiftData.weeks && shiftData.weeks.length > 0) {
-                // Новый формат с неделями
-                shiftData.weeks.forEach(weekData => {
-                    // Добавляем заголовок недели
+            // Всегда показываем плоский список дней по датам (без недель)
+            let days = [];
+            if (Array.isArray(shiftData?.weeks) && shiftData.weeks.length > 0) {
+                shiftData.weeks.forEach(week => {
+                    if (Array.isArray(week.days)) {
+                        days.push(...week.days);
+                    }
+                });
+            } else if (Array.isArray(shiftData?.days)) {
+                days = shiftData.days.slice();
+            }
+
+            // Сортировка по дате, если возможно
+            const parseDateKey = (d) => {
+                const raw = (d?.date || '').toString().trim().toLowerCase();
+                // Попытка распознать d.m(.yyyy)
+                const m1 = raw.match(/^(\d{1,2})\.(\d{1,2})(?:\.(\d{2,4}))?$/);
+                if (m1) {
+                    const day = parseInt(m1[1], 10);
+                    const mon = parseInt(m1[2], 10);
+                    const year = m1[3] ? parseInt(m1[3], 10) : 0;
+                    return year * 10000 + mon * 100 + day;
+                }
+                // d month
+                const months = ['янв','фев','мар','апр','ма','июн','июл','авг','сен','сент','окт','ноя','нояб','дек'];
+                const m2 = raw.match(/^(\d{1,2})\s+([а-я.]+)(?:\s+(\d{4}))?$/i);
+                if (m2) {
+                    const day = parseInt(m2[1], 10);
+                    const monTxt = m2[2].replace('.', '');
+                    const year = m2[3] ? parseInt(m2[3], 10) : 0;
+                    let monIdx = months.findIndex(m => monTxt.startsWith(m));
+                    if (monIdx >= 0) {
+                        // нормализуем: 'ма' для мая конфликтует с 'май/мая', компенсируем
+                        if (monTxt.startsWith('ма') && monTxt.length > 2) {
+                            monIdx = 4; // май
+                        }
+                        const mon = [1,2,3,4,5,6,7,8,9,9,10,11,11][monIdx] || 0;
+                        return year * 10000 + mon * 100 + day;
+                    }
+                }
+                // iso yyyy-mm-dd
+                const m3 = raw.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+                if (m3) {
+                    return parseInt(m3[1], 10) * 10000 + parseInt(m3[2], 10) * 100 + parseInt(m3[3], 10);
+                }
+                // Фоллбек — оставляем порядок как есть
+                return Number.MAX_SAFE_INTEGER;
+            };
+
+            days.sort((a, b) => parseDateKey(a) - parseDateKey(b));
+
+            // Группировка по неделям: новая неделя начинается с Понедельника
+            let groups = [];
+            let currentGroup = [];
+            let weekIndex = 0;
+            const flushGroup = () => {
+                if (currentGroup.length > 0) {
+                    // Заголовок недели (жирный)
                     const weekHeader = document.createElement('div');
                     weekHeader.className = 'week-header';
-                    weekHeader.innerHTML = `<h2>Неделя ${weekData.week_number}</h2>`;
+                    weekIndex += 1;
+                    weekHeader.innerHTML = `<strong>Неделя ${weekIndex}</strong>`;
                     weekGrid.appendChild(weekHeader);
-                    
-                    // Добавляем дни недели
-                    weekData.days.forEach(dayData => {
-                        const dayCard = this.createDayCard(dayData);
+                    currentGroup.forEach(d => {
+                        const dayCard = this.createDayCard(d);
                         weekGrid.appendChild(dayCard);
                     });
-                });
-            } else if (shiftData.days && shiftData.days.length > 0) {
-                // Старый формат без недель
-                shiftData.days.forEach(dayData => {
-                    const dayCard = this.createDayCard(dayData);
-                    weekGrid.appendChild(dayCard);
-                });
-            }
+                    currentGroup = [];
+                }
+            };
+
+            days.forEach(d => {
+                const isMonday = (d?.day || '').toLowerCase() === 'понедельник';
+                if (isMonday && currentGroup.length > 0) {
+                    flushGroup();
+                }
+                currentGroup.push(d);
+            });
+            flushGroup();
         });
 
         console.log('✅ Меню обновлено на странице');
@@ -139,6 +210,7 @@ class JSONMenuLoader {
         dayCard.innerHTML = `
             <div class="day-header">
                 <h3>${dayData.day}</h3>
+                ${dayData.date ? `<span class="date">${dayData.date}</span>` : ''}
             </div>
             <div class="meals">
                 ${mealsHTML}

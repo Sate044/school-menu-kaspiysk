@@ -161,9 +161,20 @@ document.addEventListener('DOMContentLoaded', function() {
         style.textContent = searchStyles;
         document.head.appendChild(style);
         
-        // Вставляем поиск после переключателя смен
+        // Вставляем поиск:
+        // 1) если есть переключатель смен — сразу после него
+        // 2) иначе — под общим заголовком .header
         const shiftSelector = document.querySelector('.shift-selector');
-        shiftSelector.insertAdjacentElement('afterend', searchContainer);
+        if (shiftSelector) {
+            shiftSelector.insertAdjacentElement('afterend', searchContainer);
+        } else {
+            const header = document.querySelector('.header');
+            if (header && header.parentElement) {
+                header.parentElement.insertBefore(searchContainer, header.nextSibling);
+            } else {
+                document.body.prepend(searchContainer);
+            }
+        }
         
         // Функциональность поиска
         const searchInput = document.getElementById('menu-search');
