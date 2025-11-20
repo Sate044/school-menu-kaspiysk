@@ -141,7 +141,37 @@ class JSONMenuLoader {
                 return Number.MAX_SAFE_INTEGER;
             };
 
-            days.sort((a, b) => parseDateKey(a) - parseDateKey(b));
+            // Сортировка по дням недели (для случаев без дат, например корпоративное меню)
+            const dayOrder = {
+                'понедельник': 1,
+                'вторник': 2,
+                'среда': 3,
+                'четверг': 4,
+                'пятница': 5,
+                'суббота': 6,
+                'воскресенье': 7
+            };
+            const getDayOrder = (d) => {
+                const dayName = (d?.day || '').toLowerCase();
+                return dayOrder[dayName] || 999;
+            };
+
+            // Сначала сортируем по дате, если даты есть
+            days.sort((a, b) => {
+                const dateA = parseDateKey(a);
+                const dateB = parseDateKey(b);
+                // Если оба без дат, применяем специальную логику
+                if (dateA === Number.MAX_SAFE_INTEGER && dateB === Number.MAX_SAFE_INTEGER) {
+                    // Для корпоративного меню сортируем по дням недели (7-дневная неделя)
+                    if (shiftType === 'corporate') {
+                        return getDayOrder(a) - getDayOrder(b);
+                    }
+                    // Для остальных меню без дат сохраняем исходный порядок (не сортируем)
+                    return 0;
+                }
+                // Иначе сортируем по дате
+                return dateA - dateB;
+            });
 
             // Группировка по неделям: новая неделя начинается с Понедельника
             let groups = [];
