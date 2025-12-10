@@ -107,7 +107,7 @@ class JSONMenuLoader {
             // Сортировка по дате, если возможно
             const parseDateKey = (d) => {
                 const raw = (d?.date || '').toString().trim().toLowerCase();
-                // d.m(.yyyy)
+                // Попытка распознать d.m(.yyyy)
                 const m1 = raw.match(/^(\d{1,2})\.(\d{1,2})(?:\.(\d{2,4}))?$/);
                 if (m1) {
                     const day = parseInt(m1[1], 10);
@@ -124,6 +124,7 @@ class JSONMenuLoader {
                     const year = m2[3] ? parseInt(m2[3], 10) : 0;
                     let monIdx = months.findIndex(m => monTxt.startsWith(m));
                     if (monIdx >= 0) {
+                        // нормализуем: 'ма' для мая конфликтует с 'май/мая', компенсируем
                         if (monTxt.startsWith('ма') && monTxt.length > 2) {
                             monIdx = 4; // май
                         }
@@ -136,6 +137,7 @@ class JSONMenuLoader {
                 if (m3) {
                     return parseInt(m3[1], 10) * 10000 + parseInt(m3[2], 10) * 100 + parseInt(m3[3], 10);
                 }
+                // Фоллбек — оставляем порядок как есть
                 return Number.MAX_SAFE_INTEGER;
             };
 
@@ -172,10 +174,12 @@ class JSONMenuLoader {
             });
 
             // Группировка по неделям: новая неделя начинается с Понедельника
+            let groups = [];
             let currentGroup = [];
             let weekIndex = 0;
             const flushGroup = () => {
                 if (currentGroup.length > 0) {
+                    // Заголовок недели (жирный)
                     const weekHeader = document.createElement('div');
                     weekHeader.className = 'week-header';
                     weekIndex += 1;
@@ -233,10 +237,10 @@ class JSONMenuLoader {
                     return !isBlacklisted(text);
                 })
                 .map(dish => {
-                    // Проверяем, является ли dish объектом с калорийностью или просто строкой
+                    // Проверяем, является ли dish объектом с граммами или просто строкой
                     if (typeof dish === 'object' && dish.name) {
-                        const caloriesText = dish.calories ? ` <span class="calories">(${dish.calories} ккал)</span>` : '';
-                        return `<li>${dish.name}${caloriesText}</li>`;
+                        const gramsText = dish.grams ? ` <span class="grams">(${dish.grams} г)</span>` : '';
+                        return `<li>${dish.name}${gramsText}</li>`;
                     } else {
                         return `<li>${dish}</li>`;
                     }

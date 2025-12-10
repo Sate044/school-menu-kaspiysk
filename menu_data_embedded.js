@@ -10,27 +10,27 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Щи из капусты свежей с картофелем",
-              "calories": 112
+              "grams": 250
             },
             {
               "name": "Плов из курицы",
-              "calories": 340
+              "grams": 260
             },
             {
               "name": "Винегрет овощной",
-              "calories": 57
+              "grams": 60
             },
             {
               "name": "Сок фруктовый",
-              "calories": 112
+              "grams": 200
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -42,27 +42,27 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Суп  с макаронными изделиями",
-              "calories": 230
+              "grams": 250
             },
             {
               "name": "Рыба запеченная с томатным соусом (минтай)",
-              "calories": 100
+              "grams": 100
             },
             {
               "name": "Картофель отварной",
-              "calories": 163
+              "grams": 150
             },
             {
               "name": "Компот из фруктов",
-              "calories": 114
+              "grams": 200
             },
             {
               "name": "Кондитерское изделие",
-              "calories": 116
+              "grams": 40
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -74,35 +74,35 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Суп  с бобовыми (горох) на бульоне",
-              "calories": 131
+              "grams": 250
             },
             {
               "name": "Курица запеченная",
-              "calories": 170
+              "grams": 90
             },
             {
               "name": "Каша гречневая рассыпчатая",
-              "calories": 219
+              "grams": 150
             },
             {
               "name": "Салат картофельный с морковью и зеленым горошком",
-              "calories": 113
+              "grams": 60
             },
             {
               "name": "Сок фруктовый",
-              "calories": 112
+              "grams": 200
             },
             {
               "name": "Яблоки",
-              "calories": 47
+              "grams": 100
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -114,35 +114,35 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Суп  с бобовыми (чечевица) на бульоне",
-              "calories": 203
+              "grams": 250
             },
             {
               "name": "Филе птицы отварное с соусом сметанным и томатом",
-              "calories": 183
+              "grams": 90
             },
             {
               "name": "Макаронные изделия отварные",
-              "calories": 215
+              "grams": 150
             },
             {
               "name": "Салат из белокочанной капусты с зеленым горошком",
-              "calories": 52
+              "grams": 60
             },
             {
               "name": "Яблоки",
-              "calories": 47
+              "grams": 100
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Компот из фруктов",
-              "calories": 114
+              "grams": 200
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -154,31 +154,31 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Борщ с капустой и картофелем на бульоне",
-              "calories": 122
+              "grams": 250
             },
             {
               "name": "Огурец,консервированный без уксуса",
-              "calories": 27
+              "grams": 60
             },
             {
               "name": "Плов из курицы",
-              "calories": 340
+              "grams": 260
             },
             {
               "name": "Сок фруктовый",
-              "calories": 112
+              "grams": 200
             },
             {
               "name": "Яблоки",
-              "calories": 47
+              "grams": 100
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -190,35 +190,35 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Суп с макаронными изделиями",
-              "calories": 230
+              "grams": 250
             },
             {
               "name": "Гуляш из говядины",
-              "calories": 190
+              "grams": 90
             },
             {
               "name": "Каша перловая рассыпчатая",
-              "calories": 118
+              "grams": 150
             },
             {
               "name": "Салат из моркови с яблоком",
-              "calories": 47
+              "grams": 60
             },
             {
               "name": "Вафли",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Компот из фруктов",
-              "calories": 114
+              "grams": 200
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -230,35 +230,35 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Суп  с бобовыми (чечевица) на бульоне",
-              "calories": 203
+              "grams": 250
             },
             {
               "name": "Рыба запеченная",
-              "calories": 123
+              "grams": 90
             },
             {
               "name": "Пюре картофельное",
-              "calories": 140
+              "grams": 150
             },
             {
               "name": "Салат из белокочанной капусты с зеленым горошком",
-              "calories": 52
+              "grams": 60
             },
             {
               "name": "Компот из смеси сухофруктов",
-              "calories": 84
+              "grams": 200
             },
             {
               "name": "Печенье",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -270,31 +270,31 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Рассольник",
-              "calories": 121
+              "grams": 250
             },
             {
               "name": "Овощное рагу с курицей",
-              "calories": 325
+              "grams": 210
             },
             {
               "name": "Винегрет овощной",
-              "calories": 57
+              "grams": 60
             },
             {
               "name": "Яблоки",
-              "calories": 47
+              "grams": 100
             },
             {
               "name": "Сок фруктовый",
-              "calories": 112
+              "grams": 200
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -306,35 +306,35 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Суп рисовый на бульоне",
-              "calories": 140
+              "grams": 250
             },
             {
               "name": "Филе птицы отварное с соусом сметанным и томатом",
-              "calories": 183
+              "grams": 90
             },
             {
               "name": "Каша пшеничная рассыпчатая",
-              "calories": 220
+              "grams": 150
             },
             {
               "name": "Салат картофельный с морковью и зеленым горошком",
-              "calories": 52
+              "grams": 60
             },
             {
               "name": "Сок фруктовый",
-              "calories": 112
+              "grams": 200
             },
             {
               "name": "Печенье",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -346,35 +346,35 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Суп  с бобовыми (чечевица) на бульоне",
-              "calories": 203
+              "grams": 250
             },
             {
               "name": "Гуляш из говядины",
-              "calories": 190
+              "grams": 90
             },
             {
               "name": "Макаронные изделия отварные",
-              "calories": 215
+              "grams": 150
             },
             {
               "name": "Салат из свеклы с зеленым горошком",
-              "calories": 46
+              "grams": 60
             },
             {
               "name": "Яблоки",
-              "calories": 47
+              "grams": 100
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Компот из фруктов",
-              "calories": 114
+              "grams": 200
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -386,31 +386,31 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Щи из капусты свежей с картофелем",
-              "calories": 112
+              "grams": 250
             },
             {
               "name": "Плов из курицы",
-              "calories": 340
+              "grams": 260
             },
             {
               "name": "Винегрет овощной",
-              "calories": 57
+              "grams": 60
             },
             {
               "name": "Сок фруктовый",
-              "calories": 112
+              "grams": 200
             },
             {
               "name": "Печенье",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -422,35 +422,35 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Суп  с макаронными изделиями",
-              "calories": 230
+              "grams": 250
             },
             {
               "name": "Рыба запеченная",
-              "calories": 123
+              "grams": 90
             },
             {
               "name": "Салат из белокочанной капусты с зеленым горошком",
-              "calories": 52
+              "grams": 60
             },
             {
               "name": "Картофель отварной",
-              "calories": 163
+              "grams": 150
             },
             {
               "name": "Вафли",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Компот из фруктов",
-              "calories": 114
+              "grams": 200
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -462,35 +462,35 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Суп  с бобовыми (горох) на бульоне",
-              "calories": 131
+              "grams": 250
             },
             {
               "name": "Курица запеченная",
-              "calories": 170
+              "grams": 90
             },
             {
               "name": "Каша гречневая рассыпчатая",
-              "calories": 215
+              "grams": 150
             },
             {
               "name": "Сок фруктовый",
-              "calories": 112
+              "grams": 200
             },
             {
               "name": "Салат из свеклы с зеленым горошком",
-              "calories": 46
+              "grams": 60
             },
             {
               "name": "Печенье",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -502,35 +502,35 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Суп  с бобовыми (чечевица) на бульоне",
-              "calories": 203
+              "grams": 250
             },
             {
               "name": "Филе птицы отварное с соусом сметанным и томатом",
-              "calories": 183
+              "grams": 90
             },
             {
               "name": "Макаронные изделия отварные",
-              "calories": 215
+              "grams": 150
             },
             {
               "name": "Салат из белокочанной капусты с зеленым горошком",
-              "calories": 52
+              "grams": 60
             },
             {
               "name": "Яблоки",
-              "calories": 47
+              "grams": 100
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Компот из фруктов",
-              "calories": 114
+              "grams": 200
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -542,31 +542,31 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Борщ с капустой и картофелем на бульоне",
-              "calories": 122
+              "grams": 250
             },
             {
               "name": "Огурец,консервированный без уксуса",
-              "calories": 27
+              "grams": 60
             },
             {
               "name": "Плов из курицы",
-              "calories": 340
+              "grams": 260
             },
             {
               "name": "Сок фруктовый",
-              "calories": 112
+              "grams": 200
             },
             {
               "name": "Яблоки",
-              "calories": 47
+              "grams": 100
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -578,35 +578,35 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Суп с макаронными изделиями",
-              "calories": 230
+              "grams": 250
             },
             {
               "name": "Гуляш из говядины",
-              "calories": 190
+              "grams": 90
             },
             {
               "name": "Каша перловая рассыпчатая",
-              "calories": 118
+              "grams": 150
             },
             {
               "name": "Салат из моркови с яблоком",
-              "calories": 47
+              "grams": 60
             },
             {
               "name": "Вафли",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Компот из фруктов",
-              "calories": 114
+              "grams": 200
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -618,31 +618,31 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Суп  с бобовыми (чечевица) на бульоне",
-              "calories": 203
+              "grams": 250
             },
             {
               "name": "Рыба запеченная",
-              "calories": 123
+              "grams": 90
             },
             {
               "name": "Пюре картофельное",
-              "calories": 140
+              "grams": 150
             },
             {
               "name": "Салат из белокочанной капусты с зеленым горошком",
-              "calories": 52
+              "grams": 60
             },
             {
               "name": "Компот из смеси сухофруктов",
-              "calories": 84
+              "grams": 200
             },
             {
               "name": "Печенье",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -654,31 +654,31 @@ window.EMBEDDED_MENU_DATA = {
           "обед": [
             {
               "name": "Рассольник",
-              "calories": 121
+              "grams": 250
             },
             {
               "name": "Овощное рагу с курицей",
-              "calories": 325
+              "grams": 210
             },
             {
               "name": "Винегрет овощной",
-              "calories": 57
+              "grams": 60
             },
             {
               "name": "Яблоки",
-              "calories": 47
+              "grams": 100
             },
             {
               "name": "Сок фруктовый",
-              "calories": 112
+              "grams": 200
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -696,23 +696,23 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Каша гречневая молочная",
-              "calories": 192
+              "grams": 200
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Яйца вареные",
-              "calories": 63
+              "grams": 40
             },
             {
               "name": "Сок фруктовый",
-              "calories": 112
+              "grams": 200
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -724,31 +724,31 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Рыба запеченная с томатным соусом (минтай)",
-              "calories": 100
+              "grams": 100
             },
             {
               "name": "Булочка сдобная",
-              "calories": 194
+              "grams": 80
             },
             {
               "name": "Рис отварной",
-              "calories": 209
+              "grams": 150
             },
             {
               "name": "Салат из белокочанной капусты с зеленым горошком",
-              "calories": 52
+              "grams": 60
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             },
             {
               "name": "Компот из смеси сухофруктов",
-              "calories": 84
+              "grams": 200
             }
           ]
         }
@@ -760,27 +760,27 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Каша пшеничная молочная",
-              "calories": 193
+              "grams": 200
             },
             {
               "name": "Какао с молоком",
-              "calories": 111
+              "grams": 200
             },
             {
               "name": "Бутерброд с сыром",
-              "calories": 192
+              "grams": 60
             },
             {
               "name": "Печенье",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Яблоки",
-              "calories": 94
+              "grams": 200
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             }
           ]
         }
@@ -792,31 +792,31 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Филе птицы отварное с соусом сметанным и томатом",
-              "calories": 183
+              "grams": 90
             },
             {
               "name": "Макаронные изделия отварные",
-              "calories": 215
+              "grams": 150
             },
             {
               "name": "Яблоки",
-              "calories": 47
+              "grams": 100
             },
             {
               "name": "Салат картофельный с кукурузой и морковью",
-              "calories": 113
+              "grams": 60
             },
             {
               "name": "Печенье",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Сок фруктовый",
-              "calories": 112
+              "grams": 200
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -828,27 +828,27 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Каша  гречневая молочная",
-              "calories": 192
+              "grams": 200
             },
             {
               "name": "Какао с молоком",
-              "calories": 111
+              "grams": 200
             },
             {
               "name": "Кондитерское изделие",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Яйца вареные",
-              "calories": 63
+              "grams": 40
             },
             {
               "name": "Яблоки",
-              "calories": 94
+              "grams": 200
             },
             {
               "name": "Бутерброд с сыром",
-              "calories": 160
+              "grams": 50
             }
           ]
         }
@@ -860,31 +860,31 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Гуляш из говядины",
-              "calories": 190
+              "grams": 90
             },
             {
               "name": "Рис отварной",
-              "calories": 209
+              "grams": 150
             },
             {
               "name": "Салат из свеклы с зеленым горошком",
-              "calories": 46
+              "grams": 60
             },
             {
               "name": "Яблоки",
-              "calories": 47
+              "grams": 100
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Сок фруктовый",
-              "calories": 112
+              "grams": 200
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -896,27 +896,27 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Рыба запеченная",
-              "calories": 123
+              "grams": 90
             },
             {
               "name": "Пюре картофельное",
-              "calories": 140
+              "grams": 150
             },
             {
               "name": "Салат из белокочанной капусты с зеленым горошком",
-              "calories": 52
+              "grams": 60
             },
             {
               "name": "Булочка сдобная",
-              "calories": 194
+              "grams": 80
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 80
+              "grams": 30
             },
             {
               "name": "Компот из смеси сухофруктов",
-              "calories": 84
+              "grams": 200
             }
           ]
         }
@@ -928,23 +928,23 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Каша пшеничная молочная",
-              "calories": 193
+              "grams": 200
             },
             {
               "name": "Какао с молоком",
-              "calories": 111
+              "grams": 200
             },
             {
               "name": "Запеканка из творога со сгущенным молоком",
-              "calories": 229
+              "grams": 12
             },
             {
               "name": "Вафли",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -956,27 +956,27 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Каша манная жидкая молочная",
-              "calories": 264
+              "grams": 200
             },
             {
               "name": "Какао с молоком",
-              "calories": 111
+              "grams": 200
             },
             {
               "name": "Яблоки",
-              "calories": 94
+              "grams": 200
             },
             {
               "name": "Бутерброд с сыром",
-              "calories": 160
+              "grams": 60
             },
             {
               "name": "Кондитерское изделие",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Яйца вареные",
-              "calories": 63
+              "grams": 40
             }
           ]
         }
@@ -988,27 +988,27 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Плов с говядиной",
-              "calories": 404
+              "grams": 180
             },
             {
               "name": "Компот из фруктов",
-              "calories": 114
+              "grams": 200
             },
             {
               "name": "Салат из свеклы с зеленым горошком",
-              "calories": 46
+              "grams": 60
             },
             {
               "name": "Яблоки",
-              "calories": 47
+              "grams": 100
             },
             {
               "name": "Вафли",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -1020,31 +1020,31 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Филе птицы отварное с соусом сметанным и томатом",
-              "calories": 183
+              "grams": 90
             },
             {
               "name": "Макаронные изделия отварные",
-              "calories": 215
+              "grams": 150
             },
             {
               "name": "Салат картофельный с морковью и зеленым горошком",
-              "calories": 52
+              "grams": 60
             },
             {
               "name": "Банан",
-              "calories": 96
+              "grams": 100
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Сок фруктовый",
-              "calories": 112
+              "grams": 200
             }
           ]
         }
@@ -1056,31 +1056,31 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Рыба запеченная с томатным соусом (минтай)",
-              "calories": 100
+              "grams": 100
             },
             {
               "name": "Пюре картофельное",
-              "calories": 140
+              "grams": 150
             },
             {
               "name": "Салат из белокочанной капусты с зеленым горошком",
-              "calories": 52
+              "grams": 60
             },
             {
               "name": "Булочка сдобная",
-              "calories": 194
+              "grams": 80
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             },
             {
               "name": "Компот из смеси сухофруктов",
-              "calories": 84
+              "grams": 200
             }
           ]
         }
@@ -1092,27 +1092,27 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Каша пшеничная молочная",
-              "calories": 193
+              "grams": 200
             },
             {
               "name": "Кофейный напиток",
-              "calories": 111
+              "grams": 200
             },
             {
               "name": "Яйца вареные",
-              "calories": 63
+              "grams": 40
             },
             {
               "name": "Печенье",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Яблоки",
-              "calories": 94
+              "grams": 200
             },
             {
               "name": "Бутерброд с сыром",
-              "calories": 192
+              "grams": 60
             }
           ]
         }
@@ -1124,31 +1124,31 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Филе птицы отварное с соусом сметанным и томатом",
-              "calories": 183
+              "grams": 90
             },
             {
               "name": "Каша гречневая рассыпчатая",
-              "calories": 215
+              "grams": 150
             },
             {
               "name": "Яблоки",
-              "calories": 47
+              "grams": 100
             },
             {
               "name": "Салат картофельный с кукурузой и морковью",
-              "calories": 52
+              "grams": 60
             },
             {
               "name": "Печенье",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Сок фруктовый",
-              "calories": 112
+              "grams": 200
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -1160,27 +1160,27 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Каша  гречневая молочная",
-              "calories": 192
+              "grams": 200
             },
             {
               "name": "Кофейный напиток",
-              "calories": 111
+              "grams": 200
             },
             {
               "name": "Кондитерское изделие",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Яблоки",
-              "calories": 47
+              "grams": 100
             },
             {
               "name": "Яйца вареные",
-              "calories": 63
+              "grams": 40
             },
             {
               "name": "Бутерброд с сыром",
-              "calories": 160
+              "grams": 50
             }
           ]
         }
@@ -1192,27 +1192,27 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Гуляш из говядины",
-              "calories": 190
+              "grams": 90
             },
             {
               "name": "Рис отварной",
-              "calories": 209
+              "grams": 150
             },
             {
               "name": "Салат картофельный с морковью и зеленым горошком",
-              "calories": 52
+              "grams": 60
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Сок фруктовый",
-              "calories": 112
+              "grams": 200
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 133
+              "grams": 50
             }
           ]
         }
@@ -1224,27 +1224,27 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Рыба запеченная",
-              "calories": 123
+              "grams": 90
             },
             {
               "name": "Пюре картофельное",
-              "calories": 140
+              "grams": 150
             },
             {
               "name": "Салат из белокочанной капусты с зеленым горошком",
-              "calories": 52
+              "grams": 60
             },
             {
               "name": "Булочка сдобная",
-              "calories": 194
+              "grams": 80
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 80
+              "grams": 30
             },
             {
               "name": "Компот из смеси сухофруктов",
-              "calories": 84
+              "grams": 200
             }
           ]
         }
@@ -1256,27 +1256,27 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Каша пшеничная молочная",
-              "calories": 193
+              "grams": 200
             },
             {
               "name": "Какао с молоком",
-              "calories": 111
+              "grams": 200
             },
             {
               "name": "Запеканка из творога со сгущенным молоком",
-              "calories": 229
+              "grams": 100
             },
             {
               "name": "Вафли",
-              "calories": 80
+              "grams": 40
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 52
+              "grams": 20
             },
             {
               "name": "Бутерброд с сыром",
-              "calories": 160
+              "grams": 50
             }
           ]
         }
@@ -1294,66 +1294,67 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Каша пшеничная молочная с маслом сливочным",
-              "calories": 211
+              "grams": 200
             },
             {
               "name": "Чай с молоком",
-              "calories": 59
+              "grams": 165
             },
             {
               "name": "Бутерброд с сыром.",
-              "calories": 95
+              "grams": 42
             },
             {
               "name": "Фрукты или ягоды свежие по сезону",
-              "calories": 47
+              "grams": 100
             }
           ],
           "обед": [
             {
               "name": "Суп харчо",
-              "calories": 96
+              "grams": 200
             },
             {
               "name": "Котлеты из говядины.",
-              "calories": 192
+              "grams": 70
             },
             {
               "name": "Пюре картофельное",
-              "calories": 173
+              "grams": 150
             },
             {
               "name": "Хлеб пшеничный.",
-              "calories": 71
+              "grams": 30
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 98
+              "grams": 38
             },
             {
               "name": "Салат из отварной свеклы",
-              "calories": 47
+              "grams": 50
             },
             {
               "name": "Компот из смеси сухофруктов",
-              "calories": 128
+              "grams": 150
             }
           ],
           "полдник": [
             {
               "name": "Йогурт фруктовый",
-              "calories": 135
+              "grams": 150
             },
             {
               "name": "Булочка домашняя со сгущеным молоком",
-              "calories": 162
+              "grams": 50
             },
             {
               "name": "Какао с молоком",
-              "calories": 75
+              "grams": 150
             },
             {
-              "name": "Соль"
+              "name": "Соль",
+              "grams": 4
             },
             {
               "name": "Примерное меню и пищевая ценность приготовляемых блюд (лист 2)"
@@ -1368,66 +1369,67 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Суп молочный с макаронными изделиями",
-              "calories": 124
+              "grams": 200
             },
             {
               "name": "Чай  с сахаром",
-              "calories": 32
+              "grams": 150
             },
             {
               "name": "Бутерброд  с маслом",
-              "calories": 90
+              "grams": 35
             },
             {
               "name": "Сок фруктовый",
-              "calories": 94
+              "grams": 180
             }
           ],
           "обед": [
             {
               "name": "Борщ с капустой и картофелем",
-              "calories": 118
+              "grams": 200
             },
             {
               "name": "Сметана",
-              "calories": 22
+              "grams": 5
             },
             {
               "name": "Гуляш из рубленного мяса",
-              "calories": 193
+              "grams": 80
             },
             {
               "name": "Каша перловая рассыпчатая",
-              "calories": 103
+              "grams": 130
             },
             {
               "name": "Салат из моркови",
-              "calories": 39
+              "grams": 50
             },
             {
               "name": "Компот из плодов свежих",
-              "calories": 102
+              "grams": 180
             },
             {
               "name": "Хлеб пшеничный.",
-              "calories": 71
+              "grams": 30
             },
             {
               "name": "Хлеб ржаной.",
-              "calories": 63
+              "grams": 38
             }
           ],
           "полдник": [
             {
               "name": "Чай с молоком",
-              "calories": 139
+              "grams": 200
             },
             {
               "name": "Ватрушка с творогом",
-              "calories": 191
+              "grams": 80
             },
             {
-              "name": "Соль"
+              "name": "Соль",
+              "grams": 4
             },
             {
               "name": "Примерное меню и пищевая ценность приготовляемых блюд (лист 3)"
@@ -1442,70 +1444,71 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Каша жидкая (геркулесовая с сахаром)",
-              "calories": 240
+              "grams": 200
             },
             {
               "name": "Чай с молоком",
-              "calories": 139
+              "grams": 200
             },
             {
               "name": "Бутерброд  с маслом",
-              "calories": 90
+              "grams": 35
             },
             {
               "name": "Фрукты или ягоды свежие по сезону",
-              "calories": 47
+              "grams": 100
             }
           ],
           "обед": [
             {
               "name": "Суп гороховый",
-              "calories": 138
+              "grams": 200
             },
             {
               "name": "Пюре картофельное",
-              "calories": 173
+              "grams": 150
             },
             {
               "name": "Тефтели мясные",
-              "calories": 163
+              "grams": 80
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 80
+              "grams": 30
             },
             {
               "name": "Хлеб ржаной.",
-              "calories": 63
+              "grams": 38
             },
             {
               "name": "Винегрет овощной",
-              "calories": 47
+              "grams": 50
             },
             {
               "name": "Компот из смеси сухофруктов",
-              "calories": 128
+              "grams": 150
             }
           ],
           "полдник": [
             {
               "name": "Каша рисовая молочная",
-              "calories": 104
+              "grams": 200
             },
             {
               "name": "Чай  с сахаром",
-              "calories": 32
+              "grams": 150
             },
             {
               "name": "Яйца вареные",
-              "calories": 63
+              "grams": 40
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 53
+              "grams": 20
             },
             {
-              "name": "Соль"
+              "name": "Соль",
+              "grams": 4
             },
             {
               "name": "Примерное меню и пищевая ценность приготовляемых блюд (лист 4)"
@@ -1520,66 +1523,67 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Омлет натуральный",
-              "calories": 109
+              "grams": 80
             },
             {
               "name": "Какао с молоком",
-              "calories": 75
+              "grams": 150
             },
             {
               "name": "Бутерброд с сыром.",
-              "calories": 95
+              "grams": 42
             },
             {
               "name": "Кондитерское изделие",
-              "calories": 87
+              "grams": 30
             }
           ],
           "обед": [
             {
               "name": "Суп на бульоне с вермишелью",
-              "calories": 178
+              "grams": 200
             },
             {
               "name": "Плов с курицей",
-              "calories": 275
+              "grams": 180
             },
             {
               "name": "Хлеб пшеничный.",
-              "calories": 71
+              "grams": 30
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 98
+              "grams": 38
             },
             {
               "name": "Салат из белокочанной капусты с морковью и растительным маслом",
-              "calories": 43
+              "grams": 50
             },
             {
               "name": "Компот из плодов свежих",
-              "calories": 85
+              "grams": 150
             }
           ],
           "полдник": [
             {
               "name": "Котлета рыбная \"Любительская\"",
-              "calories": 55
+              "grams": 60
             },
             {
               "name": "Макаронные изделия отварные",
-              "calories": 185
+              "grams": 130
             },
             {
               "name": "Чай  с сахаром..",
-              "calories": 35
+              "grams": 150
             },
             {
               "name": "Соус томатный с овощами",
-              "calories": 24
+              "grams": 20
             },
             {
-              "name": "Соль"
+              "name": "Соль",
+              "grams": 4
             },
             {
               "name": "Примерное меню и пищевая ценность приготовляемых блюд (лист 5)"
@@ -1594,66 +1598,67 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Каша молочная манная",
-              "calories": 195
+              "grams": 200
             },
             {
               "name": "Чай с молоком",
-              "calories": 72
+              "grams": 200
             },
             {
               "name": "Бутерброд  с маслом",
-              "calories": 90
+              "grams": 35
             },
             {
               "name": "Фрукты или ягоды свежие по сезону",
-              "calories": 47
+              "grams": 100
             }
           ],
           "обед": [
             {
               "name": "Суп-хинкал на костном бульоне",
-              "calories": 81
+              "grams": 180
             },
             {
               "name": "Гуляш из рубленного мяса",
-              "calories": 169
+              "grams": 70
             },
             {
               "name": "Каша гречневая рассыпчатая",
-              "calories": 217
+              "grams": 130
             },
             {
               "name": "Хлеб пшеничный.",
-              "calories": 71
+              "grams": 30
             },
             {
               "name": "Хлеб ржаной",
-              "calories": 98
+              "grams": 38
             },
             {
               "name": "Салат из отварной свеклы",
-              "calories": 47
+              "grams": 50
             },
             {
               "name": "Чай  с сахаром.",
-              "calories": 38
+              "grams": 150
             }
           ],
           "полдник": [
             {
               "name": "Суп молочный с макаронными изделиями",
-              "calories": 112
+              "grams": 180
             },
             {
               "name": "Какао с молоком.",
-              "calories": 81
+              "grams": 150
             },
             {
               "name": "Печенье \"творожное\"",
-              "calories": 341
+              "grams": 100
             },
             {
-              "name": "Соль"
+              "name": "Соль",
+              "grams": 4
             },
             {
               "name": "Примерное меню и пищевая ценность приготовляемых блюд (лист 6)"
@@ -1668,70 +1673,71 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Каша молочная пшенная",
-              "calories": 202
+              "grams": 200
             },
             {
               "name": "Молоко",
-              "calories": 76
+              "grams": 150
             },
             {
               "name": "Бутерброд с сыром.",
-              "calories": 95
+              "grams": 42
             },
             {
               "name": "Фрукты или ягоды свежие по сезону",
-              "calories": 47
+              "grams": 100
             }
           ],
           "обед": [
             {
               "name": "Суп-рассольник \"Ленинградский\"",
-              "calories": 96
+              "grams": 200
             },
             {
               "name": "Котлеты из говядины.",
-              "calories": 192
+              "grams": 70
             },
             {
               "name": "Пюре картофельное",
-              "calories": 173
+              "grams": 150
             },
             {
               "name": "Салат из белокочанной капусты с зеленым горошком",
-              "calories": 43
+              "grams": 50
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 71
+              "grams": 30
             },
             {
               "name": "Хлеб ржаной.",
-              "calories": 63
+              "grams": 38
             },
             {
               "name": "Соус сметанный.",
-              "calories": 13
+              "grams": 30
             },
             {
               "name": "Компот из плодов свежих",
-              "calories": 102
+              "grams": 180
             }
           ],
           "полдник": [
             {
               "name": "Ватрушка \"Лакомка\"",
-              "calories": 191
+              "grams": 80
             },
             {
               "name": "Винегрет овощной",
-              "calories": 57
+              "grams": 60
             },
             {
               "name": "Чай  с сахаром.",
-              "calories": 50
+              "grams": 200
             },
             {
-              "name": "Соль"
+              "name": "Соль",
+              "grams": 4
             },
             {
               "name": "Примерное меню и пищевая ценность приготовляемых блюд (лист 7)"
@@ -1746,74 +1752,75 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Суп молочный рисовый.",
-              "calories": 184
+              "grams": 200
             },
             {
               "name": "Какао с молоком.",
-              "calories": 81
+              "grams": 150
             },
             {
               "name": "Бутерброд  с маслом",
-              "calories": 90
+              "grams": 35
             },
             {
               "name": "Фрукты или ягоды свежие по сезону",
-              "calories": 47
+              "grams": 100
             }
           ],
           "обед": [
             {
               "name": "Борщ с капустой и картофелем",
-              "calories": 118
+              "grams": 200
             },
             {
               "name": "Гуляш из рубленного мяса",
-              "calories": 169
+              "grams": 70
             },
             {
               "name": "Макаронные изделия отварные с маслом",
-              "calories": 125
+              "grams": 100
             },
             {
               "name": "Сметана",
-              "calories": 22
+              "grams": 5
             },
             {
               "name": "Салат из моркови",
-              "calories": 47
+              "grams": 60
             },
             {
               "name": "Компот из смеси сухофруктов.",
-              "calories": 107
+              "grams": 150
             },
             {
               "name": "Хлеб пшеничный.",
-              "calories": 71
+              "grams": 30
             },
             {
               "name": "Хлеб ржаной.",
-              "calories": 63
+              "grams": 38
             }
           ],
           "полдник": [
             {
               "name": "Хлеб пшеничный.",
-              "calories": 47
+              "grams": 20
             },
             {
               "name": "Чай  с сахаром.",
-              "calories": 38
+              "grams": 150
             },
             {
               "name": "Каша овсяная на молоке",
-              "calories": 182
+              "grams": 150
             },
             {
               "name": "Яйца вареные",
-              "calories": 63
+              "grams": 40
             },
             {
-              "name": "Соль"
+              "name": "Соль",
+              "grams": 4
             },
             {
               "name": "Примерное меню и пищевая ценность приготовляемых блюд (лист 8)"
@@ -1828,62 +1835,63 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Омлет натуральный",
-              "calories": 109
+              "grams": 80
             },
             {
               "name": "Какао с молоком",
-              "calories": 75
+              "grams": 150
             },
             {
               "name": "Бутерброд  с маслом",
-              "calories": 90
+              "grams": 35
             },
             {
               "name": "Фрукты или ягоды свежие по сезону",
-              "calories": 47
+              "grams": 100
             }
           ],
           "обед": [
             {
               "name": "Суп-лапша домашняя.",
-              "calories": 95
+              "grams": 200
             },
             {
               "name": "Птица,тушенная в соусе с овощами в сметанном соусе",
-              "calories": 350
+              "grams": 180
             },
             {
               "name": "Хлеб пшеничный.",
-              "calories": 71
+              "grams": 30
             },
             {
               "name": "Хлеб ржаной.",
-              "calories": 63
+              "grams": 38
             },
             {
               "name": "Салат из свеклы",
-              "calories": 70
+              "grams": 50
             },
             {
               "name": "Компот из плодов свежих",
-              "calories": 85
+              "grams": 150
             }
           ],
           "полдник": [
             {
               "name": "Пирожки с картофелем",
-              "calories": 236
+              "grams": 80
             },
             {
               "name": "Чай  с сахаром..",
-              "calories": 47
+              "grams": 200
             },
             {
               "name": "Салат из моркови",
-              "calories": 39
+              "grams": 50
             },
             {
-              "name": "Соль"
+              "name": "Соль",
+              "grams": 4
             },
             {
               "name": "Примерное меню и пищевая ценность приготовляемых блюд (лист 9)"
@@ -1898,74 +1906,75 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Каша молочная пшеничная",
-              "calories": 220
+              "grams": 200
             },
             {
               "name": "Чай с молоком (1-й вариант)",
-              "calories": 72
+              "grams": 200
             },
             {
               "name": "Бутерброд с сыром.",
-              "calories": 95
+              "grams": 42
             },
             {
               "name": "Фрукты или ягоды свежие по сезону",
-              "calories": 47
+              "grams": 100
             }
           ],
           "обед": [
             {
               "name": "Суп чечевичный",
-              "calories": 108
+              "grams": 200
             },
             {
               "name": "Котлета рыбная \"Любительская\"",
-              "calories": 74
+              "grams": 80
             },
             {
               "name": "Каша гречневая рассыпчатая",
-              "calories": 217
+              "grams": 130
             },
             {
               "name": "Хлеб пшеничный.",
-              "calories": 71
+              "grams": 30
             },
             {
               "name": "Хлеб ржаной.",
-              "calories": 63
+              "grams": 38
             },
             {
               "name": "Винегрет овощной",
-              "calories": 47
+              "grams": 50
             },
             {
               "name": "Соус томатный с овощами",
-              "calories": 36
+              "grams": 30
             },
             {
               "name": "Компот из смеси сухофруктов.",
-              "calories": 107
+              "grams": 150
             }
           ],
           "полдник": [
             {
               "name": "Суп молочный рисовый.",
-              "calories": 138
+              "grams": 150
             },
             {
               "name": "Какао с молоком.",
-              "calories": 81
+              "grams": 150
             },
             {
               "name": "Хлеб пшеничный",
-              "calories": 53
+              "grams": 20
             },
             {
               "name": "Яйца вареные",
-              "calories": 63
+              "grams": 40
             },
             {
-              "name": "Соль"
+              "name": "Соль",
+              "grams": 4
             },
             {
               "name": "Примерное меню и пищевая ценность приготовляемых блюд (лист 10)"
@@ -1980,68 +1989,71 @@ window.EMBEDDED_MENU_DATA = {
           "завтрак": [
             {
               "name": "Суп молочный с макаронными изделиями",
-              "calories": 124
+              "grams": 200
             },
             {
               "name": "Чай  с сахаром.",
-              "calories": 50
+              "grams": 200
             },
             {
               "name": "Бутерброд  с маслом",
-              "calories": 90
+              "grams": 35
             },
             {
               "name": "Кондитерское изделие",
-              "calories": 87
+              "grams": 30
             }
           ],
           "обед": [
             {
               "name": "Суп гороховый",
-              "calories": 138
+              "grams": 200
             },
             {
               "name": "Плов с говядиной",
-              "calories": 404
+              "grams": 180
             },
             {
               "name": "Хлеб пшеничный.",
-              "calories": 71
+              "grams": 30
             },
             {
               "name": "Хлеб ржаной.",
-              "calories": 63
+              "grams": 38
             },
             {
               "name": "Салат из моркови",
-              "calories": 39
+              "grams": 50
             },
             {
               "name": "Компот из плодов свежих",
-              "calories": 85
+              "grams": 150
             }
           ],
           "полдник": [
             {
               "name": "Печенье \"творожное\"",
-              "calories": 341
+              "grams": 100
             },
             {
               "name": "Какао с молоком",
-              "calories": 75
+              "grams": 150
             },
             {
               "name": "Творожок детский",
-              "calories": 291
+              "grams": 100
             },
             {
-              "name": "Соль"
+              "name": "Соль",
+              "grams": 4
             },
             {
-              "name": "Среднее значение за период"
+              "name": "Среднее значение за период",
+              "grams": 55
             },
             {
-              "name": "Содержание белков, жиров, углеводов в меню за период в % от калорийности"
+              "name": "Содержание белков, жиров, углеводов в меню за период в % от калорийности",
+              "grams": 15
             }
           ]
         }
@@ -2058,78 +2070,78 @@ window.EMBEDDED_MENU_DATA = {
         "meals": {
           "обед": [
             {
-              "name": "О. Суп с бобовыми (чечевица) на бульоне",
-              "calories": 268
+              "name": "Суп с бобовыми (чечевица) на бульоне",
+              "grams": 330
             },
             {
-              "name": "О.Курица запеченная",
-              "calories": 226
+              "name": "Курица запеченная",
+              "grams": 120
             },
             {
-              "name": "О.Макаронные изделия отварные",
-              "calories": 215
+              "name": "Макаронные изделия отварные",
+              "grams": 150
             },
             {
               "name": "Чай  с сахаром",
-              "calories": 58
+              "grams": 200
             },
             {
               "name": "Кофейный напиток шт",
-              "calories": 98
+              "grams": 200
             },
             {
-              "name": "О.Хлеб пшеничный",
-              "calories": 239
+              "name": "Хлеб пшеничный",
+              "grams": 90
             },
             {
-              "name": "О.Салат из белокочанной капусты с зеленым горошком",
-              "calories": 87
+              "name": "Салат из белокочанной капусты с зеленым горошком",
+              "grams": 100
             },
             {
-              "name": "О.Булочка",
-              "calories": 208
+              "name": "Булочка",
+              "grams": 60
             },
             {
               "name": "Томатный соус п/ф (М)",
-              "calories": 27
+              "grams": 30
             }
           ],
           "ужин": [
             {
-              "name": "О. Суп с бобовыми (чечевица) на бульоне",
-              "calories": 268
+              "name": "Суп с бобовыми (чечевица) на бульоне",
+              "grams": 330
             },
             {
-              "name": "О.Курица запеченная",
-              "calories": 226
+              "name": "Курица запеченная",
+              "grams": 120
             },
             {
-              "name": "О.Макаронные изделия отварные",
-              "calories": 215
+              "name": "Макаронные изделия отварные",
+              "grams": 150
             },
             {
               "name": "Чай  с сахаром",
-              "calories": 58
+              "grams": 200
             },
             {
               "name": "Кофейный напиток шт",
-              "calories": 98
+              "grams": 200
             },
             {
-              "name": "О.Хлеб пшеничный",
-              "calories": 239
+              "name": "Хлеб пшеничный",
+              "grams": 90
             },
             {
-              "name": "О.Салат из белокочанной капусты с зеленым горошком",
-              "calories": 87
+              "name": "Салат из белокочанной капусты с зеленым горошком",
+              "grams": 100
             },
             {
-              "name": "О.Булочка",
-              "calories": 208
+              "name": "Булочка",
+              "grams": 60
             },
             {
               "name": "Томатный соус п/ф (М)",
-              "calories": 27
+              "grams": 30
             },
             {
               "name": "Примерное меню и пищевая ценность приготовляемых блюд (лист 2)"
@@ -2143,70 +2155,70 @@ window.EMBEDDED_MENU_DATA = {
         "meals": {
           "обед": [
             {
-              "name": "О. Борщ",
-              "calories": 335
+              "name": "Борщ",
+              "grams": 330
             },
             {
-              "name": "О.Котлеты из говядины",
-              "calories": 256
+              "name": "Котлеты из говядины",
+              "grams": 110
             },
             {
-              "name": "О.Пюре картофельное 150 гр.",
-              "calories": 140
+              "name": "Пюре картофельное 150 гр.",
+              "grams": 150
             },
             {
-              "name": "О.Компот из смеси сухофруктов",
-              "calories": 84
+              "name": "Компот из смеси сухофруктов",
+              "grams": 200
             },
             {
-              "name": "О.Хлеб пшеничный",
-              "calories": 239
+              "name": "Хлеб пшеничный",
+              "grams": 90
             },
             {
-              "name": "О.Салат \"Морковчанка\"",
-              "calories": 78
+              "name": "Салат \"Морковчанка\"",
+              "grams": 100
             },
             {
-              "name": "О.Булочка",
-              "calories": 208
+              "name": "Булочка",
+              "grams": 60
             },
             {
               "name": "Томатный соус п/ф (М)",
-              "calories": 27
+              "grams": 30
             }
           ],
           "ужин": [
             {
-              "name": "О. Борщ",
-              "calories": 335
+              "name": "Борщ",
+              "grams": 330
             },
             {
-              "name": "О.Котлеты из говядины",
-              "calories": 256
+              "name": "Котлеты из говядины",
+              "grams": 110
             },
             {
-              "name": "О.Пюре картофельное 150 гр.",
-              "calories": 140
+              "name": "Пюре картофельное 150 гр.",
+              "grams": 150
             },
             {
-              "name": "О.Компот из смеси сухофруктов",
-              "calories": 84
+              "name": "Компот из смеси сухофруктов",
+              "grams": 200
             },
             {
-              "name": "О.Хлеб пшеничный",
-              "calories": 239
+              "name": "Хлеб пшеничный",
+              "grams": 90
             },
             {
-              "name": "О.Салат \"Морковчанка\"",
-              "calories": 78
+              "name": "Салат \"Морковчанка\"",
+              "grams": 100
             },
             {
-              "name": "О.Булочка",
-              "calories": 208
+              "name": "Булочка",
+              "grams": 60
             },
             {
               "name": "Томатный соус п/ф (М)",
-              "calories": 27
+              "grams": 30
             },
             {
               "name": "Примерное меню и пищевая ценность приготовляемых блюд (лист 3)"
@@ -2220,70 +2232,70 @@ window.EMBEDDED_MENU_DATA = {
         "meals": {
           "обед": [
             {
-              "name": "О. Суп хинкальный на бульоне",
-              "calories": 304
+              "name": "Суп хинкальный на бульоне",
+              "grams": 330
             },
             {
-              "name": "О.Гуляш из говядины",
-              "calories": 253
+              "name": "Гуляш из говядины",
+              "grams": 120
             },
             {
-              "name": "О.Каша гречневая",
-              "calories": 219
+              "name": "Каша гречневая",
+              "grams": 150
             },
             {
               "name": "Чай  с сахаром",
-              "calories": 58
+              "grams": 200
             },
             {
               "name": "Кофейный напиток шт",
-              "calories": 98
+              "grams": 200
             },
             {
-              "name": "О.Хлеб пшеничный",
-              "calories": 239
+              "name": "Хлеб пшеничный",
+              "grams": 90
             },
             {
-              "name": "О.Салат Оливье",
-              "calories": 94
+              "name": "Салат Оливье",
+              "grams": 100
             },
             {
-              "name": "О.Булочка",
-              "calories": 208
+              "name": "Булочка",
+              "grams": 60
             }
           ],
           "ужин": [
             {
-              "name": "О.Суп хинкальный на бульоне",
-              "calories": 304
+              "name": "Суп хинкальный на бульоне",
+              "grams": 330
             },
             {
-              "name": "О.Гуляш из говядины",
-              "calories": 253
+              "name": "Гуляш из говядины",
+              "grams": 120
             },
             {
-              "name": "О.Каша гречневая",
-              "calories": 219
+              "name": "Каша гречневая",
+              "grams": 150
             },
             {
               "name": "Чай  с сахаром",
-              "calories": 58
+              "grams": 200
             },
             {
               "name": "Кофейный напиток шт",
-              "calories": 98
+              "grams": 200
             },
             {
-              "name": "О.Хлеб пшеничный",
-              "calories": 239
+              "name": "Хлеб пшеничный",
+              "grams": 90
             },
             {
-              "name": "О.Салат Оливье",
-              "calories": 94
+              "name": "Салат Оливье",
+              "grams": 100
             },
             {
-              "name": "О.Булочка",
-              "calories": 208
+              "name": "Булочка",
+              "grams": 60
             },
             {
               "name": "Примерное меню и пищевая ценность приготовляемых блюд (лист 4)"
@@ -2297,60 +2309,62 @@ window.EMBEDDED_MENU_DATA = {
         "meals": {
           "обед": [
             {
-              "name": "О. Суп фасолевый",
-              "calories": 178
+              "name": "Суп фасолевый",
+              "grams": 330
             },
             {
-              "name": "О.Рыба запеченная с томатным соусом",
-              "calories": 120
+              "name": "Рыба запеченная с томатным соусом",
+              "grams": 120
             },
             {
-              "name": "О.Пюре картофельное 150 гр.",
-              "calories": 140
+              "name": "Пюре картофельное 150 гр.",
+              "grams": 150
             },
             {
-              "name": "О.Компот из смеси сухофруктов",
-              "calories": 84
+              "name": "Компот из смеси сухофруктов",
+              "grams": 200
             },
             {
-              "name": "О.Хлеб пшеничный",
-              "calories": 239
+              "name": "Хлеб пшеничный",
+              "grams": 90
             },
             {
-              "name": "О.салат \"Коул Слоу\""
+              "name": "салат \"Коул Слоу\"",
+              "grams": 100
             },
             {
-              "name": "О.Булочка",
-              "calories": 208
+              "name": "Булочка",
+              "grams": 60
             }
           ],
           "ужин": [
             {
-              "name": "О. Суп фасолевый",
-              "calories": 178
+              "name": "Суп фасолевый",
+              "grams": 330
             },
             {
-              "name": "О.Рыба запеченная с томатным соусом",
-              "calories": 120
+              "name": "Рыба запеченная с томатным соусом",
+              "grams": 120
             },
             {
-              "name": "О.Пюре картофельное 150 гр.",
-              "calories": 140
+              "name": "Пюре картофельное 150 гр.",
+              "grams": 150
             },
             {
-              "name": "О.Компот из смеси сухофруктов",
-              "calories": 84
+              "name": "Компот из смеси сухофруктов",
+              "grams": 200
             },
             {
-              "name": "О.Хлеб пшеничный",
-              "calories": 239
+              "name": "Хлеб пшеничный",
+              "grams": 90
             },
             {
-              "name": "О.салат \"Коул Слоу\""
+              "name": "салат \"Коул Слоу\"",
+              "grams": 100
             },
             {
-              "name": "О.Булочка",
-              "calories": 208
+              "name": "Булочка",
+              "grams": 60
             },
             {
               "name": "Примерное меню и пищевая ценность приготовляемых блюд (лист 5)"
@@ -2364,76 +2378,78 @@ window.EMBEDDED_MENU_DATA = {
         "meals": {
           "обед": [
             {
-              "name": "О.Рассольник",
-              "calories": 159
+              "name": "Рассольник",
+              "grams": 330
             },
             {
-              "name": "О.Котлеты из говядины",
-              "calories": 256
+              "name": "Котлеты из говядины",
+              "grams": 110
             },
             {
               "name": "Чай  с сахаром",
-              "calories": 58
+              "grams": 200
             },
             {
-              "name": "О.Каша пшеничная рассыпчатая",
-              "calories": 220
+              "name": "Каша пшеничная рассыпчатая",
+              "grams": 150
             },
             {
               "name": "Кофейный напиток шт",
-              "calories": 98
+              "grams": 200
             },
             {
-              "name": "О.Хлеб пшеничный",
-              "calories": 239
+              "name": "Хлеб пшеничный",
+              "grams": 90
             },
             {
-              "name": "О.Винегрет 2"
+              "name": "Винегрет 2",
+              "grams": 100
             },
             {
-              "name": "О.Булочка",
-              "calories": 208
+              "name": "Булочка",
+              "grams": 60
             },
             {
               "name": "Томатный соус п/ф (М)",
-              "calories": 27
+              "grams": 30
             }
           ],
           "ужин": [
             {
-              "name": "О.Рассольник",
-              "calories": 159
+              "name": "Рассольник",
+              "grams": 330
             },
             {
-              "name": "О.Котлеты из говядины",
-              "calories": 256
+              "name": "Котлеты из говядины",
+              "grams": 110
             },
             {
-              "name": "О.Каша пшеничная рассыпчатая",
-              "calories": 220
+              "name": "Каша пшеничная рассыпчатая",
+              "grams": 150
             },
             {
               "name": "Чай  с сахаром",
-              "calories": 58
+              "grams": 200
             },
             {
               "name": "Кофейный напиток шт",
-              "calories": 98
+              "grams": 200
             },
             {
-              "name": "О.Хлеб пшеничный",
-              "calories": 239
+              "name": "Хлеб пшеничный",
+              "grams": 90
             },
             {
-              "name": "О.Булочка",
-              "calories": 208
+              "name": "Булочка",
+              "grams": 60
             },
             {
-              "name": "О.Винегрет 2"
+              "name": "Винегрет 2",
+              "grams": 100
             },
             {
               "name": "Томатный соус п/ф (М)",
-              "calories": 27
+              "grams": 30
             },
             {
               "name": "Примерное меню и пищевая ценность приготовляемых блюд (лист 6)"
@@ -2447,78 +2463,78 @@ window.EMBEDDED_MENU_DATA = {
         "meals": {
           "обед": [
             {
-              "name": "О. Суп  с бобовыми (горох) на бульоне",
-              "calories": 173
+              "name": "Суп  с бобовыми (горох) на бульоне",
+              "grams": 330
             },
             {
-              "name": "О.Курица запеченная",
-              "calories": 226
+              "name": "Курица запеченная",
+              "grams": 120
             },
             {
-              "name": "О.Каша гречневая",
-              "calories": 219
+              "name": "Каша гречневая",
+              "grams": 150
             },
             {
               "name": "Томатный соус п/ф (М)",
-              "calories": 27
+              "grams": 30
             },
             {
               "name": "Чай  с сахаром",
-              "calories": 58
+              "grams": 200
             },
             {
               "name": "Кофейный напиток шт",
-              "calories": 98
+              "grams": 200
             },
             {
-              "name": "О.Хлеб пшеничный",
-              "calories": 239
+              "name": "Хлеб пшеничный",
+              "grams": 90
             },
             {
-              "name": "О.Салат свекольный с чесноком",
-              "calories": 77
+              "name": "Салат свекольный с чесноком",
+              "grams": 100
             },
             {
-              "name": "О.Булочка",
-              "calories": 208
+              "name": "Булочка",
+              "grams": 60
             }
           ],
           "ужин": [
             {
-              "name": "О. Суп  с бобовыми (горох) на бульоне",
-              "calories": 173
+              "name": "Суп  с бобовыми (горох) на бульоне",
+              "grams": 330
             },
             {
-              "name": "О.Курица запеченная",
-              "calories": 226
+              "name": "Курица запеченная",
+              "grams": 120
             },
             {
-              "name": "О.Каша гречневая",
-              "calories": 219
+              "name": "Каша гречневая",
+              "grams": 150
             },
             {
               "name": "Томатный соус п/ф (М)",
-              "calories": 27
+              "grams": 30
             },
             {
               "name": "Чай  с сахаром",
-              "calories": 58
+              "grams": 200
             },
             {
               "name": "Кофейный напиток шт",
-              "calories": 98
+              "grams": 200
             },
             {
-              "name": "О.Хлеб пшеничный",
-              "calories": 239
+              "name": "Хлеб пшеничный",
+              "grams": 90
             },
             {
-              "name": "О.Салат свекольный с чесноком",
-              "calories": 77
+              "name": "Салат свекольный с чесноком",
+              "grams": 100
             },
             {
-              "name": "О.Булочка",
-              "calories": 208
+              "name": "Булочка",
+              "grams": 60
             },
             {
               "name": "Примерное меню и пищевая ценность приготовляемых блюд (лист 7)"
@@ -2532,74 +2548,78 @@ window.EMBEDDED_MENU_DATA = {
         "meals": {
           "обед": [
             {
-              "name": "О.Суп Харчо",
-              "calories": 185
+              "name": "Суп Харчо",
+              "grams": 330
             },
             {
-              "name": "О.Курица в соусе томатном",
-              "calories": 349
+              "name": "Курица в соусе томатном",
+              "grams": 120
             },
             {
-              "name": "О.Макаронные изделия отварные",
-              "calories": 215
+              "name": "Макаронные изделия отварные",
+              "grams": 150
             },
             {
               "name": "Чай  с сахаром",
-              "calories": 58
+              "grams": 200
             },
             {
               "name": "Кофейный напиток шт",
-              "calories": 98
+              "grams": 200
             },
             {
-              "name": "О.Хлеб пшеничный",
-              "calories": 239
+              "name": "Хлеб пшеничный",
+              "grams": 90
             },
             {
-              "name": "О.Морковь по-корейски"
+              "name": "Морковь по-корейски",
+              "grams": 100
             },
             {
-              "name": "О.Булочка",
-              "calories": 208
+              "name": "Булочка",
+              "grams": 60
             }
           ],
           "ужин": [
             {
-              "name": "О.Суп Харчо",
-              "calories": 185
+              "name": "Суп Харчо",
+              "grams": 330
             },
             {
-              "name": "О.Курица в соусе томатном",
-              "calories": 349
+              "name": "Курица в соусе томатном",
+              "grams": 120
             },
             {
-              "name": "О.Макаронные изделия отварные",
-              "calories": 287
+              "name": "Макаронные изделия отварные",
+              "grams": 200
             },
             {
               "name": "Чай  с сахаром",
-              "calories": 58
+              "grams": 200
             },
             {
               "name": "Кофейный напиток шт",
-              "calories": 98
+              "grams": 200
             },
             {
-              "name": "О.Хлеб пшеничный",
-              "calories": 239
+              "name": "Хлеб пшеничный",
+              "grams": 90
             },
             {
-              "name": "О.Морковь по-корейски"
+              "name": "Морковь по-корейски",
+              "grams": 100
             },
             {
-              "name": "О.Булочка",
-              "calories": 208
+              "name": "Булочка",
+              "grams": 60
             },
             {
-              "name": "Среднее значение за период"
+              "name": "Среднее значение за период",
+              "grams": 74
             },
             {
-              "name": "Содержание белков, жиров, углеводов в меню за период в % от калорийности"
+              "name": "Содержание белков, жиров, углеводов в меню за период в % от калорийности",
+              "grams": 17
             },
             {
               "name": "__________________ Аида"

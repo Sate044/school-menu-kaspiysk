@@ -237,10 +237,10 @@ class JSONMenuLoader {
                     return !isBlacklisted(text);
                 })
                 .map(dish => {
-                    // Проверяем, является ли dish объектом с калорийностью или просто строкой
+                    // Проверяем, является ли dish объектом с граммами или просто строкой
                     if (typeof dish === 'object' && dish.name) {
-                        const caloriesText = dish.calories ? ` <span class="calories">(${dish.calories} ккал)</span>` : '';
-                        return `<li>${dish.name}${caloriesText}</li>`;
+                        const gramsText = dish.grams ? ` <span class="grams">(${dish.grams} г)</span>` : '';
+                        return `<li>${dish.name}${gramsText}</li>`;
                     } else {
                         return `<li>${dish}</li>`;
                     }

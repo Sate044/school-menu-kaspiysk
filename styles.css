@@ -392,8 +392,8 @@ body {
     transition: transform 0.2s ease;
 }
 
-/* Стили для калорийности */
-.calories {
+/* Стили для граммов (веса блюда) */
+.grams {
     color: var(--text-light);
     font-size: 0.85rem;
     font-weight: 400;
@@ -401,7 +401,7 @@ body {
     margin-left: 5px;
 }
 
-.meal-items li:hover .calories {
+.meal-items li:hover .grams {
     color: var(--primary-orange);
     font-weight: 500;
     opacity: 1;
