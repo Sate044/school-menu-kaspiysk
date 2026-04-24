@@ -231,19 +231,33 @@ class JSONMenuLoader {
                 return blacklistSubstrings.some(fragment => normalized.includes(fragment));
             };
             
-            const dishesHTML = dishes
+            const visibleDishes = (Array.isArray(dishes) ? dishes : [])
                 .filter(dish => {
                     const text = (typeof dish === 'object' && dish?.name) ? dish.name : dish;
+                    if (!text || !String(text).trim()) return false;
                     return !isBlacklisted(text);
                 })
                 .map(dish => {
-                    // Проверяем, является ли dish объектом с граммами или просто строкой
                     if (typeof dish === 'object' && dish.name) {
-                        const gramsText = dish.grams ? ` <span class="grams">(${dish.grams} г)</span>` : '';
-                        return `<li>${dish.name}${gramsText}</li>`;
-                    } else {
-                        return `<li>${dish}</li>`;
+                        return {
+                            name: dish.name,
+                            grams: dish.grams
+                        };
                     }
+                    return {
+                        name: String(dish).trim()
+                    };
+                });
+
+            // Не показываем прием пищи, если в нем нет валидных блюд
+            if (visibleDishes.length === 0) {
+                return '';
+            }
+
+            const dishesHTML = visibleDishes
+                .map(dish => {
+                    const gramsText = dish.grams ? ` <span class="grams">(${dish.grams} г)</span>` : '';
+                    return `<li>${dish.name}${gramsText}</li>`;
                 }).join('');
             
             return `
