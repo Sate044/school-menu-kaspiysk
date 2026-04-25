@@ -5,11 +5,15 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Функция переключения смен
     function switchShift(targetShift) {
+        const targetButton = document.querySelector(`[data-shift="${targetShift}"]`);
+        const targetContainer = document.getElementById(`${targetShift}-shift`);
+        if (!targetButton || !targetContainer) return;
+
         // Убираем активный класс с всех кнопок
         shiftButtons.forEach(btn => btn.classList.remove('active'));
         
         // Добавляем активный класс к выбранной кнопке
-        document.querySelector(`[data-shift="${targetShift}"]`).classList.add('active');
+        targetButton.classList.add('active');
         
         // Скрываем все контейнеры меню
         menuContainers.forEach(container => {
@@ -18,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Показываем выбранный контейнер с анимацией
         setTimeout(() => {
-            document.getElementById(`${targetShift}-shift`).classList.remove('hidden');
+            targetContainer.classList.remove('hidden');
         }, 150);
     }
     
